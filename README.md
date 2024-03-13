@@ -12,7 +12,7 @@ Incluye: Index - Home
 
 Views
 
-<img src"https://i.postimg.cc/02Km5T9H/Images-MM1.png"/>
+<img src"[https://i.postimg.cc/02Km5T9H/Images-MM1.png](https://postimg.cc/RN9qXb6c)"/>
 
 <img src"https://i.postimg.cc/hQn4ZfjS/Images-MM2.png"/>
 
