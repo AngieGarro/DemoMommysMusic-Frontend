@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html"></meta>
+    <!-- link para css -->
+    <link rel="stylesheet" type="text/css" href="../Styles/estilos.css"/>
+    <!-- link para tipo de letra -->
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Roboto & display = swap" rel = "hoja de estilo ">
+    <title>MommysMusic</title>
+</head>
+<body>
+  <main>
+      <div class="contenedor_principal">
+          <div class="caja_trasera">
+              <div class="caja_trasera-login">
+                  <h1>MOMMY'S MUSIC PROJECT</h1>
+                  <h3>Inicio de Sesión</h3>
+                  <button id="btn_inicio">Iniciar Sesión</button>
+              </div>
+              <div class="caja_trasera-registro">
+                  <h1>MOMMY'S MUSIC PROJECT</h1>
+                  <h3>Registro</h3>
+                  <button id="btn_registro">Registrarse</button>
+              </div>
+          </div>
+          <div class="contenedor_login-registro">
+              <form action="" class="form_login">
+                  <h2>Iniciar Sesión</h2>
+                  <input type="text" th:field="*{}" placeholder="Correo Electrónico"required>
+                  <input type="password" placeholder="Contraseña"required>
+                  <button type="submit">Acceder</button>
+              </form>
+              <form action="" class="form_registro">
+                  <h2>Registrarse</h2>
+                  <input id="nombre" type="text" placeholder="Nombre completo" name="nombre" required>
+                  <input id="fechaNacimiento" type="date" name="fechaNacimiento">
+                  <input id="correo" type="text" placeholder="Correo Electrónico" name="correo" required>
+                  <input id="pwrd" type="password" placeholder="Contraseña" name="pwrd" required>
+                  <input id="genero" type="text" placeholder="Género" name="genero" required>
+                  <button type="submit">Registrarse</button>
+              </form>
+          </div>
+      </div>
+  </main>
+  <script src="../JS/loginRegistro.js"></script>
+</body>
+</html>

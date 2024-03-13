@@ -1,0 +1,207 @@
+body{    
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+/*COLORES*/
+
+.bgLightBlue {
+    background-color: #46A2FD;
+}
+.bgOrange {
+    background-color: #ff9459;
+}
+
+.colorWhite {
+    color: white;
+}
+
+.colorOrange{
+    color: #ff9459;
+}
+
+.color-purple{
+    color: #BA2B89
+}
+
+.color_pink{
+    color: #FCA382;
+}
+
+h2{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+h2 span{
+    font-size: inherit!important;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.d-flex-l{
+    display: flex;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+	min-height: 460px;
+}
+
+.paddingTitulo {
+    padding: 50px 0px;
+}
+
+/*LINEA-PERFIL*/
+
+.linea {
+    position: relative;
+    z-index: 1;
+}
+
+.linea:before {
+    border-top: 2px solid #1CBBC4;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.titulo-span {
+    background: #fff;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+a{
+    cursor: pointer;
+    color: #1CBBC4;
+}
+
+.icon-to-top {
+    padding-top: 10px;
+    padding-left: 22px;
+	font-size: 20px;
+	color: #FCA382;
+}
+.d-grid{
+    display: grid;
+    
+}
+
+.text-r{
+    text-align: right;
+}
+.text-l{
+    text-align: left;
+}
+
+.color-purple {
+	color: #BA2B89
+}
+
+.padding-footer {
+	padding: 30px 0px 25px 0px;
+}
+
+.fontParrafo {
+	font-size: 20px;
+}
+
+footer {
+	float: left;
+	padding-top: 75px;
+	width: 100%;
+}
+
+.position-to-top {
+	width: 55px!important;
+}
+.base-button {
+    width: 200px;
+    border: #1cbbc4 solid 2px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+    margin: 20px 0;
+    background: #00bcd4;
+    color: white!important;
+}
+.txt-tur{
+	color: #1cbbc4!important;
+}
+input{
+	position: relative;
+    top: 2px;
+}
+
+.justfy-left{
+		justify-content:left;
+}
+
+i.fas.fa-angle-up.icon-to-top {
+    top: 0;
+    margin-left: 0;
+}
+.bgOrange a:hover {
+    color: #000000!important;
+}
+
+.agregar-input {
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+@media(min-width: 768px) and (max-width: 1280px) {
+	main{
+		width: 90%;
+	}
+	.w-25{
+		width: 35%;
+	}
+	.w-50 {
+		width: 60%;
+	}
+	.w-50.float-left {
+    width: 100%;
+    float: inherit!important;
+	text-align: center;
+	}
+	.w-100.margin-button {
+		margin: 15px 15%;
+	}
+	.select-widith{
+		/*width: 260px;*/
+	}
+	.base-button {
+		padding: 10px 20px;
+
+	}
+	.info-cuenta.w-50{
+		width: 90%;
+	}
+	.float-left.w-50.d-grid .tipoCedula {
+		text-align: left;
+	}
+	
+}
+@media(min-width: 1281px) and (max-width: 1440px) {
+	main{
+		width: 90%;
+	}
+
+}
+
+
